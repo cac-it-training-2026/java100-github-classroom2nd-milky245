@@ -47,7 +47,7 @@ class Spaceship {
     }
 
     public static void showsum(){
-    	System.out.println("宇宙船の数は" + number + "隻です"); 
+    	//System.out.println("宇宙船の数は" + number + "隻です");
     }
 }
 
@@ -55,10 +55,10 @@ public class Astronaut {
 
     public static void main(String[] args) {
 
-        Spaceship spaceship1 = new Spaceship();
-        System.out.println("1隻目の燃料は" + spaceship1.getFuel() + "です");        
-        Spaceship spaceship2 = new Spaceship();
-        System.out.println("2隻目の燃料は" + spaceship2.getFuel() + "です"); 
+//        Spaceship spaceship1 = new Spaceship();
+//        System.out.println("1隻目の燃料は" + spaceship1.getFuel() + "です");
+//        Spaceship spaceship2 = new Spaceship();
+//        System.out.println("2隻目の燃料は" + spaceship2.getFuel() + "です");
 
         //ここに処理を記述する
     }
