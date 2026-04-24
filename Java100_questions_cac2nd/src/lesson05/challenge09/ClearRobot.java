@@ -10,4 +10,10 @@ public class ClearRobot {
     public void clearTable(int[] ingredients) {
         Arrays.fill(ingredients, 0);
     }
+
+//    public void clearTable(int[] ingredients) {
+//        for (int i = 0; i < ingredients.length; i++) {
+//            ingredients[i] = 0;
+//        }
+//    }
 }
